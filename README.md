@@ -7,20 +7,8 @@ MVCモデルの設計
 ---
 
 ## 🚀 画面イメージ / 動作デモ
-*(ここに実際の操作画面のGIFアニメーションやスクリーンショットを挿入予定)*
-<!-- 例: ![app-demo](images/demo.gif) -->
 
----
-
-## 🛠️ 使用技術 (Tech Stack)
-
-* **言語**: Java[cite: 9]
-* **フロントエンド**: HTML, CSS, JavaScript
-* **バックエンド**: Servlet / JSP[cite: 9, 13]
-* **データベース**: MySQL (`mysql-connector-j`)
-* **サーバー**: Apache Tomcat[cite: 9]
-* **開発環境**: Eclipse[cite: 9]
-* **バージョン管理**: Git / GitHub
+<img width="746" height="688" alt="GIF-demo" src="https://github.com/user-attachments/assets/fb1048cd-8f0e-41cc-b80b-573e2b5594b5" />
 
 
 ---
@@ -58,12 +46,12 @@ java_ShainBeanCRUD/
  ┃     ┗ ShainLogic.java
  ┗ src/main/webapp/
     ┣ WEB-INF/
-    │  ┣ lib/
-    │  │  ┗ mysql-connector-j-8.0.33.jar
-    │  ┗ web.xml
-    ┗ view/              # 画面描画用JSPファイル群
-       ┣ index.jsp
-       ┣ insert.jsp
-       ┣ update.jsp
-       ┣ delete.jsp
-       ┗ error.jsp
+    ┃  ┣ lib/
+    ┃  ┃  ┗ mysql-connector-j-8.0.33.jar
+    ┃  ┗ view/              # 画面描画用JSPファイル群
+    ┃     ┣ index.jsp
+    ┃     ┣ insert.jsp
+    ┃     ┣ update.jsp
+    ┃     ┣ delete.jsp
+    ┃     ┗ error.jsp
+      ┗ web.xml
