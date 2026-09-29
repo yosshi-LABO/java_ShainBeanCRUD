@@ -1,5 +1,5 @@
 
-# 📋 社員管理 CRUD アプリケーション (java_ShainBeanCRUD)
+# 📋 社員管理 CRUD WEBアプリ (java_ShainBeanCRUD)
 
 Java (Servlet / JSP) を用いた、社員データの登録・閲覧・更新・削除（CRUD）機能を持つWebアプリケーションです。
 
